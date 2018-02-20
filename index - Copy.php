@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Organic Fine Foods</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://getbootstrap.com/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="instafeed.js"></script>
+        <script src="javascript.js"></script>
+
+    </head>
+    <body>
+
+
+        <!--fornt header-->
+        <div class="collapse" id="collapsingheader" style="background-color: #9ac29a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h4><strong>Cabbagetown Organics</strong></h4>
+                        <table>
+                            <tr>
+                                <td>MONDAY</td>
+                                <td>10:00 AM - 09:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>TUESDAY</td>
+                                <td>10:00 AM - 09:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>WEDNESDAY</td>
+                                <td>10:00 AM - 09:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>THURSDAY</td>
+                                <td>10:00 AM - 09:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>FRIDAY</td>
+                                <td>10:00 AM - 08:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>SATURDAY</td>
+                                <td>10:00 AM - 08:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>SUNDAY</td>
+                                <td>10:00 AM - 06:00 PM</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-sm">
+                        <h4><strong>Friendly Magnolia</strong></h4>
+                        <table>
+                            <col width=50%>
+                            <col width=50%>
+                            <tr>
+                                <td>MONDAY</td>
+                                <td>10:00 AM - 09:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>TUESDAY</td>
+                                <td>10:00 AM - 09:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>WEDNESDAY</td>
+                                <td>10:00 AM - 09:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>THURSDAY</td>
+                                <td>10:00 AM - 09:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>FRIDAY</td>
+                                <td>10:00 AM - 08:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>SATURDAY</td>
+                                <td>10:00 AM - 08:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>SUNDAY</td>
+                                <td>10:00 AM - 06:00 PM</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--header ends-->
+
+
+        <!-- Navigation Panel-->
+        <nav class="navbar  navbar-light" style="background-color: darkseagreen">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fa fa-shopping-basket"></i> Organic Fine Foods</a>
+                <ul class="nav d-none d-md-inline-flex">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Producs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingheader" aria-controls="collapsingheader" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- End Navigation Panel-->
+
+
+
+
+
+        <!--Slidshow-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <!--
+<ol class="carousel-indicators">
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+</ol>
+-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="image/download.gif" height="200px" alt="First slide">
+                    <div class="carousel-caption">
+                        <h2>Welcome</h2>
+                        <p>Welcome to Organic Fine Food, where you'll find all things organic.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image/download.gif" height="200px" alt="Second slide">
+                    <div class="carousel-caption">
+                        <h2 class="text-black">BBQ Chicken</h2>
+                        <p>We make BBQ chicken at our place, Everyday. Deli foods are added speciality.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="image/download.gif" height="200px" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h2 class="text-black">Fresh Vegetables.</h2>
+                        <p>Fresh-organic Vegetables, directly from local market. Local produce is our high priority.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- next-previos controllers...
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+-->
+        </div>
+        <!--Slideshow ends -->
+
+        <!-- Offers -->
+        <div class="container text-center py-4">
+            <h1 class="py-4">OFFERS</h1>
+            <div class="row">
+                <div class="col-md card mx-1">
+                    <h3>Cabbagetown Organics</h3>
+                    <div id="offer" class="row"></div>
+                </div>
+                <div class="col-md card mx-1">
+                    <h3>Friendly magnolia</h3>
+                    <div id="offer2" class="row"></div>
+                </div>
+            </div>
+            <script>
+                userFeed.run();
+                userFeed2.run();
+            </script>
+        </div>
+        <!-- Offers Ends-->
+
+
+
+        <!--Products -->
+        <div class="container text-center py-4">
+            <h1 class="py-4">PRODUCTS</h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="image/bakery.png">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h4>Bakery</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="image/dairy.png">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h4>Dairy</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="image/baverages.png">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h4>baverages</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="image/cereal.png">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h4>Cereals</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="image/coffee.png">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h4>Coffee</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="image/cookies.png">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h4>Cookies</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="image/grains.png">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h4>Grains</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="image/icecream.png">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h4>Desserts</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="image/oils.png">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h4>Oils</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--Products Ends-->
+        <div>
+            <!--Product Certificatio -->
+            <div class="container text-center py-4">
+                <h1>OUR PRODUCTS ARE</h1>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="mb-4 ">
+                            <img class="img-fluid" src="image/canada.png">
+                            <h4>Canada Organic</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="mb-4 ">
+                            <img class="img-fluid" src="image/fairtrade.png">
+                            <h4>Fairtrade</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="mb-4 ">
+                            <img class="img-fluid" src="image/usda.png">
+                            <h4>USDA Certified organic</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="mb-4 ">
+                            <img class="img-fluid" src="image/vegan.png">
+                            <h4>Vegan</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>  
+
+            <!--Card Payment-->
+            <div class="container text-center py-4 w3-jumbo">
+                <h1>WE ACCEPT</h1>
+                <i class="fa fa-cc-visa"></i>
+                <i class="fa fa-cc-amex"></i>
+                <i class="fa fa-cc-mastercard"></i> 
+            </div>
+        </div>
+        <!--Location-->
+        <div>
+            <div class="container py-4">
+                <h1 class="text-center">LOCATIONS</h1>
+                <div class="row">
+                    <div class="col-md card mx-4 my-4" style="padding: 0">
+                        <div class="card-header">
+                            <h4>Cabbagetown Organics</h4>
+                        </div>
+                        <div class="card-body">
+                            <div id="CabMap" style="height: 300px"></div>
+                            <h5 class="card-title my-2"><strong>Address</strong></h5>
+                            <div class="card-text">
+                                <p>Cabbagetown Organics Fine Foods <br>499 Parliament Street <br> Toronto, Ontario <br> M4X1P3 <br> +1 (416) 913-7296</p>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#hour1" role="button" aria-expanded="false" aria-controls="hour1">HOURS</a>
+                                <div class="collapse" id="hour1">
+                                    <table>
+                                        <tr>
+                                            <td>MONDAY</td>
+                                            <td>10:00 AM - 09:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>TUESDAY</td>
+                                            <td>10:00 AM - 09:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>WEDNESDAY</td>
+                                            <td>10:00 AM - 09:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>THURSDAY</td>
+                                            <td>10:00 AM - 09:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>FRIDAY</td>
+                                            <td>10:00 AM - 08:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SATURDAY</td>
+                                            <td>10:00 AM - 08:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SUNDAY</td>
+                                            <td>10:00 AM - 06:00 PM</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md card mx-4 my-4" style="padding: 0">
+                        <div class="card-header">
+                            <h4>Friendly Magnolia</h4>
+                        </div>
+                        <div class="card-body">
+                            <div id="MagMap" style="height: 300px"></div>
+                            <h5 class="card-title my-2"><strong>Address</strong></h5>
+                            <div class="card-text">
+                                <p>Friendly Magnolia Fine Foods <br> 548 College Street <br> Toronto, Ontario <br> M6G1B1 <br> +1 (416) 920-9927</p>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#hour2" role="button" aria-expanded="false" aria-controls="hour2">HOURS</a>
+                                <div class="collapse" id="hour2">
+                                    <table>
+                                        <col width=50%>
+                                        <col width=50%>
+                                        <tr>
+                                            <td>MONDAY</td>
+                                            <td>10:00 AM - 09:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>TUESDAY</td>
+                                            <td>10:00 AM - 09:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>WEDNESDAY</td>
+                                            <td>10:00 AM - 09:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>THURSDAY</td>
+                                            <td>10:00 AM - 09:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>FRIDAY</td>
+                                            <td>10:00 AM - 08:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SATURDAY</td>
+                                            <td>10:00 AM - 08:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SUNDAY</td>
+                                            <td>10:00 AM - 06:00 PM</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--About-->
+        <div class="bg-dark">
+            <div class="container text-white py-2">
+                <h4>About Us</h4>
+                <p>Organic Fine Food is a family-owned retail business. We have two shops in the heart of toronto that sell organic grocery, dairy and bakery products. We also serve BBQ Chicken and other deli food made with love and joy. We welcome you to experience an ambitious variety of Products.</p>
+            </div>
+            <p class="text-center text-white">Developed with <i class="fa fa-heart"></i> by <a href="http://jaypatel.site">Jay Patel</a></p>
+        </div>
+        <!--scripts-->
+
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLxgS4ojEJnlcJeQPwLbAW-vpTJ9VaIN8&callback=initMap"></script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
